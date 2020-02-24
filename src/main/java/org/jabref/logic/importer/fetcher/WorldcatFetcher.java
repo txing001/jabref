@@ -10,8 +10,7 @@ import org.jabref.model.entry.field.StandardField;
 
 /**
  * Fetcher for Worldcat.org
- * Example query: http://www.worldcat.org/webservices/catalog/search/worldcat/opensearch?q=srw.ti+all+%22kth%22&wskey={built-in-api-key}
- */
+*/
 public class WorldcatFetcher implements EntryBasedFetcher {
 
 	final static private String NAME = "Worldcat_Fetcher";
@@ -31,7 +30,8 @@ public class WorldcatFetcher implements EntryBasedFetcher {
 	public List<BibEntry> performSearch(BibEntry entry) {
 		Optional<String> title = entry.getLatexFreeField(StandardField.TITLE);
 		if (title.isPresent()) {
-			
+			//Example query: http://www.worldcat.org/webservices/catalog/search/worldcat/opensearch?q=srw.ti+all+%22kth%22&wskey={built-in-api-key}
+
 		} else {
 			return new ArrayList<>(0);
 		}
