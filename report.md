@@ -6,11 +6,9 @@ has to be delivered in a standard, cross-platform format.
 
 ## Project
 
-Name:
+**Name**: [JabRef Bibliography Management](https://github.com/JabRef/jabref)
 
-URL:
-
-One or two sentences describing it
+**Description**: JabRef is an open-source, cross-platform citation and reference management tool.
 
 ## Onboarding experience
 
@@ -29,11 +27,9 @@ Optional (point 2): relation to design pattern(s).
 
 ## Selected issue(s)
 
-Title:
+**Title**: [Wishes for new fetchers](https://github.com/JabRef/jabref/issues/2581)
 
-URL:
-
-Summary in one or two sentences
+**Description**: Implement a fetcher that allows for generation of BibTex/Biblatex from Webcat.org based on a URL. 
 
 ### Requirements affected by functionality being refactored
 
@@ -56,23 +52,12 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 ## Effort spent
 
-For each team member, how much time was spent in
-
-1. plenary discussions/meetings;
-
-2. discussions within parts of the group;
-
-3. reading documentation;
-
-4. configuration and setup;
-
-5. analyzing code/output;
-
-6. writing documentation;
-
-7. writing code;
-
-8. running code?
+|                 | Disc/Meeting | Disc/Meeting within parts of group| Reading documentation | Config/Setup | Analyzing |Writing doc | Coding| Running code | Total |
+|-----------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Adam  		  | - | - | - | - | - | - | - | - | - |
+| August          | - | - | - | - | - | - | - | - | - |
+| Glenn        	  | - | - | - | - | - | - | - | - | - |
+| Roger 		  | - | - | - | - | - | - | - | - | - |
 
 For setting up tools and libraries (step 4), enumerate all dependencies
 you took care of and where you spent your time, if that time exceeds
