@@ -208,3 +208,4 @@ jobs:
           CI: "false" # we pretend to run locally - even if tests fail on the CI, they count towards test coverage
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
           DBMS: "postgresql"
+
